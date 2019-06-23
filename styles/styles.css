@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/background4.jpg");
   background-size: 700px, 7000px;
+
 }
 
 .name {
@@ -36,3 +37,12 @@ body {
 .show {
   display: block;
 }
+
+.about {
+  background: green;
+  max-width: 300px;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  padding: 10px;
