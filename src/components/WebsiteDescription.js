@@ -4,7 +4,12 @@ class WebsiteDescription extends React.Component {
   render() {
     return (
       <div>
-        <p></p>
+        <div className="tech-stack-body">
+          <h1>
+            <u>Tech Stack</u>
+          </h1>
+          <h3>HTML/CSS | Javascript | NodeJS | React | Material UI</h3>
+        </div>
       </div>
     );
   }

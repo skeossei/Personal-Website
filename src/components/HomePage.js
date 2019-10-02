@@ -6,11 +6,7 @@ class HomePage extends React.Component {
     return (
       <Grid container direction="column" justify="center" alignItems="center">
         <Grid item xs={12} className="header-color">
-          <img
-            src="https://icon-library.net/images/male-avatar-icon/male-avatar-icon-29.jpg"
-            alt="pic"
-            className="myPic"
-          />
+          <img src="ProfilePic.png" alt="pic" className="myPic" />
           <div className="nameAndLinks">
             <h1>Software Developer</h1>
             <hr />
@@ -26,7 +22,7 @@ class HomePage extends React.Component {
                 <i className="fa fa-github-square" aria-hidden="true"></i>
               </a>
               <a
-                href="www.linkedin.com/in/sevag-keosseian-1ba765194/"
+                href="http://linkedin.com/in/sevag-keosseian-1ba765194"
                 target="_blank"
                 rel="noopener noreferrer"
               >

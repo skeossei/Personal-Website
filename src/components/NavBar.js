@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 import HomePage from './HomePage.js';
 import Projects from './Projects.js';
 import AboutMe from './AboutMe.js';
+import Resume from './Resume.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -53,7 +54,7 @@ export default function SimpleTabs() {
           <Tab label="Home" {...a11yProps(0)} />
           <Tab label="Projects" {...a11yProps(1)} />
           <Tab label="Resume" {...a11yProps(2)} />
-          <Tab label="Contact" {...a11yProps(3)} />
+          <Tab label="About Me" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -63,6 +64,9 @@ export default function SimpleTabs() {
         <Projects />
       </TabPanel>
       <TabPanel value={value} index={2}>
+        <Resume />
+      </TabPanel>
+      <TabPanel value={value} index={3}>
         <AboutMe />
       </TabPanel>
     </div>

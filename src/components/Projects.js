@@ -2,6 +2,8 @@ import React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import { Tab, Paper, Typography, Box } from '@material-ui/core';
 import WebsiteDescription from './WebsiteDescription.js';
+import HighSchoolDescription from './HighSchoolDescription.js';
+import IEEEDescription from './IEEEDescription.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -33,31 +35,29 @@ class Projects extends React.Component {
   render() {
     const { tab } = this.state;
     return (
-      <div>
-        <Paper>
-          <Tabs
-            value={tab}
-            onChange={this.handeOnClick}
-            indicatorColor="primary"
-            textColor="primary"
-            centered
-            ripple
-          >
-            <Tab label="Personal Website" />
-            <Tab label="High School Project" />
-            <Tab label="IEEE" />
-          </Tabs>
-          <TabPanel TabPanel value={tab} index={0}>
-            <WebsiteDescription />
-          </TabPanel>
-          <TabPanel value={tab} index={1}>
-            <Projects />
-          </TabPanel>
-          <TabPanel value={tab} index={2}>
-            Item Three
-          </TabPanel>
-        </Paper>
-      </div>
+      <Paper>
+        <Tabs
+          value={tab}
+          onChange={this.handeOnClick}
+          indicatorColor="primary"
+          textColor="primary"
+          centered
+          ripple
+        >
+          <Tab label="Personal Website" />
+          <Tab label="High School Project" />
+          <Tab label="IEEE" />
+        </Tabs>
+        <TabPanel TabPanel value={tab} index={0}>
+          <WebsiteDescription />
+        </TabPanel>
+        <TabPanel value={tab} index={1}>
+          <HighSchoolDescription />
+        </TabPanel>
+        <TabPanel value={tab} index={2}>
+          <IEEEDescription />
+        </TabPanel>
+      </Paper>
     );
   }
 }

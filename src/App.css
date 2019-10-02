@@ -19,7 +19,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 250px;
-  height: 250px;
+  height: 300px;
   padding-bottom: 2em;
 }
 
@@ -65,4 +65,85 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.about-main {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  padding: 1em;
+}
+
+.contact-list hr {
+  border-style: 10px black;
+  width: 50%;
+  margin: auto;
+}
+
+.phone-icon {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.phone-icon i {
+  padding-left: 3em;
+  color: rgb(29, 26, 26);
+  font-size: 3em;
+  padding-right: 1em;
+}
+
+.email-icon {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.email-icon i {
+  padding-left: 3em;
+  color: rgb(29, 26, 26);
+  font-size: 3em;
+  padding-right: 1em;
+}
+
+.education {
+  text-align: center;
+  padding: 1em;
+}
+
+.languages-list h1 {
+  text-align: center;
+}
+
+.experience {
+  margin: auto;
+  padding: 1em;
+}
+
+.experience h1 {
+  text-align: center;
+}
+
+.technologies {
+  padding: 1em;
+}
+
+.technologies h1 {
+  text-align: center;
+}
+
+.tech-stack-body {
+  text-align: center;
+}
+
+.high-school-body {
+  text-align: center;
+}
+
+.ieee-body {
+  text-align: center;
 }
