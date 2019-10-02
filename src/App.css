@@ -1,22 +1,68 @@
-.App {
+.background-color {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.myPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  padding-bottom: 2em;
+}
+
+.nameAndLinks {
+  background-color: black;
+  opacity: 0.8;
+  width: auto;
+  margin: auto;
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nameAndLinks h1 {
+  font-size: 66px;
+  font-weight: bold;
   color: white;
+  margin: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-.App-link {
-  color: #09d3ac;
+.nameAndLinks hr {
+  border-style: 5px white;
+  width: 75%;
+  margin: auto;
+}
+
+.nameAndLinks p {
+  color: white;
+  font-size: 20px;
+  padding: 0em;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
