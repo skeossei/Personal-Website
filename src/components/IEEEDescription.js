@@ -8,7 +8,7 @@ class IEEEDescription extends React.Component {
           <h1>
             <u>Tech Stack</u>
           </h1>
-          <h2>C++, Arduino code</h2>
+          <h2>C++ | Arduino code</h2>
         </div>
         <hr />
         <div className="ieee-body">

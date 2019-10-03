@@ -42,7 +42,8 @@ class Projects extends React.Component {
           indicatorColor="primary"
           textColor="primary"
           centered
-          ripple
+          ripple="true"
+          scrollButtons="auto"
         >
           <Tab label="Personal Website" />
           <Tab label="High School Project" />

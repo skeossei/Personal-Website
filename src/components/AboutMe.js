@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, List, ListItem } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 class AboutMe extends React.Component {
   render() {
@@ -23,16 +23,14 @@ class AboutMe extends React.Component {
           <Grid item xs={6} className="contact-list">
             <h1>Contact</h1>
             <hr />
-            <List>
-              <ListItem className="phone-icon">
-                <i class="fa fa-phone-square"></i>
-                <h3> (818) 590-1344</h3>
-              </ListItem>
-              <ListItem className="email-icon">
-                <i class="fa fa-envelope"></i>
-                <h3>sev.keoss@gmail.com</h3>
-              </ListItem>
-            </List>
+            <div className="phone">
+              <i className="fa fa-phone-square"></i>
+              <h3> (818) 590-1344</h3>
+            </div>
+            <div className="email">
+              <i className="fa fa-envelope"></i>
+              <h3>sev.keoss@gmail.com</h3>
+            </div>
           </Grid>
         </Grid>
       </div>

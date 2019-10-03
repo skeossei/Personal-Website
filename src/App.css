@@ -74,40 +74,43 @@
   padding: 1em;
 }
 
+.contact-list {
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
 .contact-list hr {
   border-style: 10px black;
   width: 50%;
   margin: auto;
 }
 
-.phone-icon {
-  text-align: center;
-  justify-content: center;
-  display: block;
-  width: 50%;
-  margin: auto;
+.phone {
+  padding-top: 1em;
 }
 
-.phone-icon i {
-  padding-left: 3em;
+.phone i {
+  display: inline-block;
+  color: rgb(29, 26, 26);
+  font-size: 3em;
+  padding-right: 1em;
+  display: inline-block;
+}
+
+.phone h3 {
+  display: inline-block;
+}
+
+.email i {
+  display: inline-block;
   color: rgb(29, 26, 26);
   font-size: 3em;
   padding-right: 1em;
 }
 
-.email-icon {
-  text-align: center;
-  justify-content: center;
-  display: block;
-  width: 50%;
-  margin: auto;
-}
-
-.email-icon i {
-  padding-left: 3em;
-  color: rgb(29, 26, 26);
-  font-size: 3em;
-  padding-right: 1em;
+.email h3 {
+  display: inline-block;
 }
 
 .education {
