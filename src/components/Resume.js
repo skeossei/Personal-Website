@@ -43,23 +43,19 @@ class Resume extends React.Component {
             </h1>
             <div>
               <h2>Java </h2>
-              <Slider value={80} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
+              <Slider value={85} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
             <div>
               <h2>Spring Boot / Spring Batch</h2>
-              <Slider value={75} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
+              <Slider value={80} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
             <div>
               <h2>Groovy</h2>
               <Slider value={75} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
             <div>
-              <h2>AWS DMS Java SDK</h2>
-              <Slider value={75} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
-            </div>
-            <div>
               <h2>C / C++ </h2>
-              <Slider value={70} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
+              <Slider value={75} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
 
             <div>
@@ -68,11 +64,11 @@ class Resume extends React.Component {
             </div>
             <div>
               <h2>Microsoft SQL Server</h2>
-              <Slider value={50} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
+              <Slider value={65} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
             <div>
               <h2>HTML / CSS </h2>
-              <Slider value={50} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
+              <Slider value={60} aria-labelledby="continuous-slider" valueLabelDisplay="on" />
             </div>
             <div>
               <h2>Javascript </h2>

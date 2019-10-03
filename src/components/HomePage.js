@@ -11,7 +11,7 @@ class HomePage extends React.Component {
             <h1>Software Developer</h1>
             <hr />
 
-            <p> HTML/CSS | Javascript | NodeJS | React | Material UI </p>
+            <p> HTML/CSS | Javascript | React </p>
 
             <div className="links">
               <a
